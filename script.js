@@ -31,6 +31,7 @@ function showMovies (data) {
     data.map(i => {
         let newMovies = document.createElement('div')
         let availableTicket = parseInt(i.capacity - i.tickets_sold)
+        newMovies.classname = "myCards"
         newMovies.innerHTML = `
         <card id="mycard">
             <img src="${i.poster}">
@@ -43,12 +44,12 @@ function showMovies (data) {
         </card>
         `;
 
-   function addButtons (btn){
-    data.map(i => {
-        btn.addEventListener('click', console.log("Click event"))
-    })
-   } 
-addButtons()
+//    function addButtons (btn){
+//     data.map(i => {
+//         btn.addEventListener('click', console.log("Click event"))
+//     })
+//    } 
+// addButtons()
 // btn.addEventListener('click', console.log('I was clicked'))
         movies.appendChild(newMovies);
         
