@@ -26,4 +26,4 @@ The Movie Ticket Booking Web App uses a Theater API to fetch movie details, show
   * JavaScript
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE] file for details.
+This project is licensed under the MIT License - see the [LICENSE]() file for details.
