@@ -1,7 +1,7 @@
 # Movie Ticket Booking Web App
 
 This project is a Movie Ticket Booking Web App that allows users to view movie details, check available tickets, and purchase tickets for movies being shown in a theater. The app provides a user-friendly interface and dynamically updates ticket availability when users buy tickets.
-
+![Landing page](./movies.png)
 ## Features 
 * Display details of the first movie, including its poster, title, runtime, showtime, and available tickets.
 * Buy a ticket for a movie by clicking the "Buy Ticket" button.
