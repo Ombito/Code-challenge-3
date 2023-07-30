@@ -26,13 +26,14 @@ form {
     flex-wrap: wrap;
     justify-content: space-around;
     margin-left: 30px;
-
+    cursor: pointer;
 }
 #movieList {
     background-color:rgb(227, 214, 214);
     border-radius: 10px;
     height: 90vh;
     border: 2px solid black;
+    
 }
 ul {
     list-style-type: none;

@@ -37,16 +37,20 @@ function showMovies (data) {
             <img src="${i.poster}">
             <h4>${i.title}</h4>
             <p>Runtime: ${i.runtime} minutes</p>
-            <p>Runtime: ${i.capacity} minutes</p>
+            <p>Total capacity: ${i.capacity} minutes</p>
             <p>Available ticket: ${availableTicket}</p>
             <p>Tickets Sold: ${i.tickets_sold} </p>
             <a id="ticketButton" href=#myForm><button>Buy Ticket</button>
         </card>
         `;
 
-//    function addButtons (btn){
-//     data.map(i => {
-//         btn.addEventListener('click', console.log("Click event"))
+    // function addButtons (btn){
+    // data.map(i => {
+    // if(availableTickets > 0) {
+    //     availableTickets--;
+    //     tickets_sold++;
+    //     }
+//  
 //     })
 //    } 
 // addButtons()
